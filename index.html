@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Мій перший сайт</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Мій перший сайт</h1>
+    </header>
+    <main>
+      <section class="sec_1">
+        <p>Зараз я вивчаю Front-end розробку на платформі <a href="https://prometheus.org.ua/">Prometheus</a>
+        </p>
+        <p>
+          Упродовж навчання на курсі “Frontend. Базовий курс від Ciklum” я планую:
+          <ol>
+            <li>Виконувати всі завдання і як результат - навчитися професійно створювати вебсайти</li>
+            <li>Виконати курсовий проєкт "Книжковий магазин" і додати його в своє резюме </li>
+            <li>Після завершення навчання пройти співбесіду і влаштуватися на роботу фронтенд-розробником</li>
+          </ol>
+        </p>
+      </section>
+      <section>
+        <h2>Prometheus - Найкраща освіта для всіх</h2>
+        <p>
+          Чому мені подобається Prometheus:
+          <ul>
+            <li>можна вчитися у зручний для мене час</li>
+            <li>дуже якісні сучасні курси</li>
+            <li>є можливість отримати якісну освіту з Prometheus+</li>
+          </ul>
+        </p>
+      </section>
+      <h2>А ще я люблю слухати музику під час роботи</h2>
+      <div class="iframe_container">
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/WerCpkTJQTM?si=NwMLXz6lP66Gr69o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; ILYA Lavrentyev</p>
+    </footer>
+  </body>
+</html>
+<style>
+   body{
+      margin: 0;
+      padding: 0;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      min-height: 100vh;
+   }
+   header{
+      background: rgb(0, 0, 104);
+      color: yellow;
+      text-align: center;
+   }
+   h1{
+      color: yellow;
+      text-align: center;
+   }
+   main{
+      background: rgb(255, 255, 224);
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+   }
+   section{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+      padding: 30px;
+   }
+   h2{
+      color: rgb(0, 0, 104);
+   }
+   footer{
+      background: rgb(0, 0, 104);
+   }
+   footer>p{
+   color: #ffffff;
+   padding: 0px 20px;
+   }
+   ol li{
+      list-style-type: square;
+   }
+   ul li{
+      list-style-type: disclosure-closed;
+   }
+</style>
